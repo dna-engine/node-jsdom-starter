@@ -16,4 +16,4 @@ $ node app.js
 ```
 
 ===
-[MIT license](http://dnajs.org/license)
+[MIT License](http://dnajs.org/license)
