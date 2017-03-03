@@ -19,11 +19,12 @@ var html = `
    </body>
 </html>
 `;
-var document = require('jsdom').jsdom(html, { url: 'http://example.com' });
+var document = require('jsdom').jsdom(html);
 var window =   document.defaultView;
 var $ =        require('jquery')(window);
 var dna =      require('dna.js')(window, $);
 
+// To Do Application
 function app() {
    dna.clone('task', { title: 'Order bulgogi' });
    dna.clone('task', { title: 'Eat bulgogi' });
@@ -33,7 +34,6 @@ app();
 // Output
 console.log('Data model:');
 console.log(dna.getModel('task'));
-console.log();
 console.log('Task elements:');
 function printNode() { console.log(this.outerHTML); }
 $('.task').each(printNode);
