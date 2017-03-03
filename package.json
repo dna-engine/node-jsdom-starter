@@ -1,0 +1,14 @@
+{
+   "name":        "dnajs-node-jsdom",
+   "version":     "1.0.0",
+   "description": "Sample dna.js application running on node with jsdom",
+   "keywords":    ["node", "dna.js", "jsdom", "javascript"],
+   "homepage":    "https://github.com/dnajs/dnajs-node-jsdom",
+   "author":      { "name": "Center Key", "url": "http://centerkey.com" },
+   "repository":  { "type": "git",        "url": "https://github.com/dnajs/dnajs-node-jsdom.git" },
+   "license":     "MIT",
+   "dependencies": {
+      "dna.js": "~1.2",
+      "jsdom":  "~9.11"
+   }
+}
