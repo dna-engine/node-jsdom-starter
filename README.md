@@ -9,7 +9,7 @@
 [dnajs.org](http://dnajs.org), a UI library for jQuery, can be run headless (no browser) on
 Node.js with the DOM provided by jsdom.
 
-## Setup
+### Setup
 Execute `run-app.sh.command` or enter the terminal commands:
 ```
 $ cd dnajs-node-jsdom-starter
@@ -17,10 +17,10 @@ $ npm update
 $ node app.js
 ```
 
-## require()
+### require()
 ![require dna.js](screenshots/require-dnajs.png)
 
-## Output
+### Output
 ![require dna.js](screenshots/terminal.png)
 
 ===
