@@ -1,7 +1,7 @@
 #!/bin/sh
-####################
-# dnajs-node-jsdom #
-####################
+############################
+# dnajs-node-jsdom-starter #
+############################
 
 # To make this file runnable:
 #    $ chmod +x *.sh.command
@@ -14,7 +14,7 @@ update() {
     }
 
 echo
-echo "dnajs-node-jsdom"
+echo "dnajs-node-jsdom-starter"
 echo "================"
 cd $(dirname $0)
 pwd

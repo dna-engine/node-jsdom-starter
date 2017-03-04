@@ -1,4 +1,4 @@
-### dnajs-node-jsdom
+### dnajs-node-jsdom-starter
 
 *Sample dna.js application running on node with jsdom*
 
@@ -10,7 +10,7 @@
 
 Execute `run-app.sh.command` or enter the commands:
 ```
-$ cd dnajs-node-jsdom
+$ cd dnajs-node-jsdom-starter
 $ npm update
 $ node app.js
 ```

@@ -1,9 +1,9 @@
-//////////////////////
-// dnajs-node-jsdom //
-//////////////////////
+//////////////////////////////
+// dnajs-node-jsdom-starter //
+//////////////////////////////
 
 // Run:
-//    $ cd dnajs-node-jsdom
+//    $ cd dnajs-node-jsdom-starter
 //    $ npm update
 //    $ node spec.js
 
