@@ -23,5 +23,5 @@ $ node app.js
 ### Output
 ![require dna.js](screenshots/terminal.png)
 
-===
-[MIT License](http://dnajs.org/license)
+---
+[MIT License](LICENSE.txt)

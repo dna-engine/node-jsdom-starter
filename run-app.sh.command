@@ -15,7 +15,7 @@ update() {
 
 echo
 echo "dnajs-node-jsdom-starter"
-echo "================"
+echo "========================"
 cd $(dirname $0)
 pwd
 update
