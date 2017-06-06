@@ -19,10 +19,11 @@ const html = `
    </body>
 </html>
 `;
-const document = require('jsdom').jsdom(html);
-const window =   document.defaultView;
-const $ =        require('jquery')(window);
-const dna =      require('dna.js')(window, $);
+
+const { JSDOM } = require('jsdom');
+const window =    new JSDOM(html).window;
+const $ =         require('jquery')(window);
+const dna =       require('dna.js')(window, $);
 
 // To Do Application
 function app() {
