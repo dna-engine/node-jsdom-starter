@@ -6,18 +6,24 @@
 # To make this file runnable:
 #    $ chmod +x *.sh.command
 
-update() {
-    which node || alert "Need to install node: https://nodejs.org"
-    echo "Node.js $(node --version)"
-    npm update
-    echo
-    }
+info() {
+   pwd
+   echo
+   echo "Node.js:"
+   which node || { echo "Need to install Node.js: https://nodejs.org"; exit; }
+   node --version
+   test -d node_modules || npm install
+   npm update
+   npm outdated
+   echo
+   }
 
 echo
 echo "dnajs-node-jsdom-starter"
 echo "========================"
 cd $(dirname $0)
-pwd
-update
+info
+echo "-----"
 node app.js
+echo "-----"
 echo

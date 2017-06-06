@@ -1,14 +1,17 @@
 {
    "name":        "dnajs-node-jsdom-starter",
+   "description": "Sample dna.js application running on Node.js with jsdom",
    "version":     "1.0.0",
-   "description": "Sample dna.js application running on node with jsdom",
-   "keywords":    ["node", "dna.js", "jsdom", "javascript"],
-   "homepage":    "https://github.com/dnajs/dnajs-node-jsdom-starter",
-   "author":      { "name": "Center Key", "url": "http://centerkey.com" },
-   "repository":  { "type": "git",        "url": "https://github.com/dnajs/dnajs-node-jsdom-starter.git" },
    "license":     "MIT",
+   "main":        "app.js",
+   "repository":  "dnajs/dnajs-node-jsdom-starter",
+   "homepage":    "https://github.com/dnajs/dnajs-node-jsdom-starter",
+   "bugs":        "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
+   "docs":        "http://dnajs.org/docs",
+   "keywords":    ["node", "dna.js", "jsdom", "javascript"],
+   "author":      { "name": "Center Key", "url": "http://centerkey.com" },
    "dependencies": {
       "dna.js": "~1.2",
-      "jsdom":  "~9.11"
+      "jsdom":  "~9.12"
    }
 }
