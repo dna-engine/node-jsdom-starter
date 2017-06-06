@@ -23,6 +23,7 @@ echo "dnajs-node-jsdom-starter"
 echo "========================"
 cd $(dirname $0)
 info
+npm test
 echo "-----"
 node app.js
 echo "-----"

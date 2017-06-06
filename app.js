@@ -35,5 +35,5 @@ app();
 console.log('Data model:');
 console.log(dna.getModel('task'));
 console.log('Task elements:');
-function printNode() { console.log(this.outerHTML); }
+function printNode(i, elem) { console.log(elem.outerHTML); }
 $('.task').each(printNode);
