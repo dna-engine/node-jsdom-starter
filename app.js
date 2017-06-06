@@ -5,9 +5,9 @@
 // Run:
 //    $ cd dnajs-node-jsdom-starter
 //    $ npm update
-//    $ node spec.js
+//    $ node app.js
 
-var html = `
+const html = `
 <!doctype html>
 <html lang=en>
    <head>
@@ -19,10 +19,10 @@ var html = `
    </body>
 </html>
 `;
-var document = require('jsdom').jsdom(html);
-var window =   document.defaultView;
-var $ =        require('jquery')(window);
-var dna =      require('dna.js')(window, $);
+const document = require('jsdom').jsdom(html);
+const window =   document.defaultView;
+const $ =        require('jquery')(window);
+const dna =      require('dna.js')(window, $);
 
 // To Do Application
 function app() {
