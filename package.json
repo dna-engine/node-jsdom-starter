@@ -1,28 +1,36 @@
 {
-   "name":        "dnajs-node-jsdom-starter",
+   "name": "dnajs-node-jsdom-starter",
    "description": "Sample dna.js application running on Node.js with jsdom",
-   "version":     "1.0.0",
-   "license":     "MIT",
-   "main":        "app.js",
-   "repository":  "dnajs/dnajs-node-jsdom-starter",
-   "homepage":    "https://github.com/dnajs/dnajs-node-jsdom-starter",
-   "bugs":        "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
-   "docs":        "http://dnajs.org/docs",
-   "keywords":    ["node", "dna.js", "jsdom", "javascript"],
-   "author":      { "name": "Center Key", "url": "http://centerkey.com" },
+   "version": "1.0.0",
+   "license": "MIT",
+   "main": "app.js",
+   "repository": "dnajs/dnajs-node-jsdom-starter",
+   "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
+   "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
+   "docs": "http://dnajs.org/docs",
+   "keywords": [
+      "node",
+      "dna.js",
+      "jsdom",
+      "javascript"
+   ],
+   "author": {
+      "name": "Center Key",
+      "url": "http://centerkey.com"
+   },
    "scripts": {
       "test": "jshint *.js"
    },
    "jshintConfig": {
       "esversion": 6,
-      "strict":    "implied",
-      "node":      true,
-      "undef":     true,
-      "unused":    true
+      "strict": "implied",
+      "node": true,
+      "undef": true,
+      "unused": true
    },
    "dependencies": {
       "dna.js": "~1.3",
-      "jsdom":  "~11.2",
+      "jsdom": "~11.2",
       "jshint": "~2.9"
    }
 }
