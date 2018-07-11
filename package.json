@@ -7,7 +7,7 @@
    "repository": "dnajs/dnajs-node-jsdom-starter",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
-   "docs": "http://dnajs.org/docs",
+   "docs": "https://dnajs.org/docs",
    "keywords": [
       "node",
       "dna.js",
@@ -16,7 +16,7 @@
    ],
    "author": {
       "name": "Center Key",
-      "url": "http://centerkey.com"
+      "url": "https://centerkey.com"
    },
    "scripts": {
       "test": "jshint *.js"

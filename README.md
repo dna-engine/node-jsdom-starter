@@ -5,7 +5,7 @@
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter)
 
-[dnajs.org](http://dnajs.org), a UI library for jQuery, can be run headless (no browser) on
+[dnajs.org](https://dnajs.org), a UI library for jQuery, can be run headless (no browser) on
 Node.js with the DOM provided by jsdom.
 
 ### Setup
