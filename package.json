@@ -31,7 +31,7 @@
    "dependencies": {
       "dna.js": "~1.4",
       "jquery": "~3.3",
-      "jsdom": "~11.11",
+      "jsdom": "~11.12",
       "jshint": "~2.9"
    }
 }
