@@ -4,7 +4,7 @@
    "version": "1.0.0",
    "license": "MIT",
    "main": "app.js",
-   "repository": "dnajs/dnajs-node-jsdom-starter",
+   "repository": "github:dnajs/dnajs-node-jsdom-starter",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
    "docs": "https://dnajs.org/docs",

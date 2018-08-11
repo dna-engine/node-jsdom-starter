@@ -1,7 +1,7 @@
 # dnajs-node-jsdom-starter
-<img src=https://raw.githubusercontent.com/dnajs/dna.js/master/website/static/graphics/dnajs-logo.png
-   align=right width=160 alt=logo>
-*Sample dna.js application running on node with jsdom*
+<img src=https://dnajs.org/graphics/dnajs-logo.png align=right width=160 alt=logo>
+
+_Sample dna.js application running on node with jsdom_
 
 [![Build Status](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter)
 
