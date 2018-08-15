@@ -4,13 +4,16 @@
 ############################
 
 # To make this file runnable:
-#    $ chmod +x *.sh.command
+#     $ chmod +x *.sh.command
 
+banner="dnajs-node-jsdom-starter"
 projectHome=$(cd $(dirname $0); pwd)
 
 setupTools() {
-   # Check for Node.js installation and download project dependencies
    cd $projectHome
+   echo
+   echo $banner
+   echo $(echo $banner | sed -e "s/./=/g")
    pwd
    echo
    echo "Node.js:"
@@ -31,8 +34,5 @@ runApp() {
    echo
    }
 
-echo
-echo "dnajs-node-jsdom-starter"
-echo "========================"
 setupTools
 runApp
