@@ -8,16 +8,13 @@
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
    "docs": "https://dnajs.org/docs",
+   "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "node",
       "dna.js",
       "jsdom",
       "javascript"
    ],
-   "author": {
-      "name": "Center Key",
-      "url": "https://centerkey.com"
-   },
    "scripts": {
       "test": "jshint *.js"
    },
@@ -31,7 +28,7 @@
    "dependencies": {
       "dna.js": "~1.4",
       "jquery": "~3.3",
-      "jsdom": "~12.2",
+      "jsdom": "~13.0",
       "jshint": "~2.9"
    }
 }
