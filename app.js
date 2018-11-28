@@ -4,7 +4,7 @@
 
 // Run:
 //    $ cd dnajs-node-jsdom-starter
-//    $ npm update
+//    $ npm install
 //    $ node app.js
 
 const html = `

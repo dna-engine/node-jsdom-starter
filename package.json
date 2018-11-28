@@ -15,15 +15,15 @@
       "jsdom",
       "javascript"
    ],
-   "scripts": {
-      "test": "jshint *.js"
-   },
    "jshintConfig": {
       "esversion": 6,
       "strict": "implied",
       "undef": true,
       "unused": true,
       "node": true
+   },
+   "scripts": {
+      "test": "jshint *.js"
    },
    "dependencies": {
       "dna.js": "~1.4",

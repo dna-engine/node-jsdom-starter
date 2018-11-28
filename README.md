@@ -3,6 +3,8 @@
 
 _Sample dna.js application running on node with jsdom_
 
+[![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dnajs.org/license)
+[![Vulnerabilities](https://snyk.io/test/github/dnajs/dnajs-node-jsdom-starter/badge.svg)](https://snyk.io/test/github/dnajs/dnajs-node-jsdom-starter)
 [![Build](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter)
 
 [dnajs.org](https://dnajs.org), a UI library for jQuery, can be run headless (no browser) on
@@ -12,7 +14,7 @@ Node.js with the DOM provided by jsdom.
 Execute `run-app.sh.command` or enter the terminal commands:
 ```
 $ cd dnajs-node-jsdom-starter
-$ npm update
+$ npm install
 $ node app.js
 ```
 
