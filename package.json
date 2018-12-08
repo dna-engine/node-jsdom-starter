@@ -26,9 +26,10 @@
       "test": "jshint *.js"
    },
    "dependencies": {
-      "dna.js": "~1.4",
+      "dna.js": "~1.5",
       "jquery": "~3.3",
       "jsdom": "~13.0",
-      "jshint": "~2.9"
+      "jshint": "~2.9",
+      "request": "~2.88"
    }
 }

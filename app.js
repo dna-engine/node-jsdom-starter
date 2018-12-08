@@ -26,15 +26,15 @@ const $ =         require('jquery')(window);
 const dna =       require('dna.js')(window, $);
 
 // To Do Application
-function app() {
+const app = () => {
    dna.clone('task', { title: 'Order bulgogi' });
    dna.clone('task', { title: 'Eat bulgogi' });
-   }
+   };
 app();
 
 // Output
 console.log('Data model:');
 console.log(dna.getModel('task'));
 console.log('Task elements:');
-function printNode(i, elem) { console.log(elem.outerHTML); }
+const printNode = (i, elem) => console.log(elem.outerHTML);
 $('.task').each(printNode);
