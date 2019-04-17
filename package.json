@@ -16,8 +16,9 @@
       "javascript"
    ],
    "jshintConfig": {
-      "esversion": 6,
+      "esversion": 9,
       "strict": "implied",
+      "eqeqeq": true,
       "undef": true,
       "unused": true,
       "node": true
@@ -27,9 +28,9 @@
    },
    "dependencies": {
       "dna.js": "~1.5",
-      "jquery": "~3.3",
-      "jsdom": "~13.1",
-      "jshint": "~2.9",
+      "jquery": "~3.4",
+      "jsdom": "~14.0",
+      "jshint": "~2.10",
       "request": "~2.88"
    }
 }
