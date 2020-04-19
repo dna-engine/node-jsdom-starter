@@ -29,9 +29,8 @@
    "dependencies": {
       "canvas": "~2.6",
       "dna.js": "~1.6",
-      "jquery": "~3.4",
-      "jsdom": "~15.2",
-      "jshint": "~2.10",
-      "request": "~2.88"
+      "jquery": "~3.5",
+      "jsdom": "~16.2",
+      "jshint": "~2.11"
    }
 }
