@@ -23,7 +23,8 @@ const html = `
 const { JSDOM } = require('jsdom');
 const window =    new JSDOM(html).window;
 const $ =         require('jquery')(window);
-const dna =       require('dna.js')(window, $);
+const { dna } =   require('dna.js');
+dna.initGlobal(window, $);
 
 // To Do Application
 const app = () => {
