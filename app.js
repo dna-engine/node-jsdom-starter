@@ -7,24 +7,25 @@
 //    $ npm install
 //    $ node app.js
 
-const html = `
-<!doctype html>
-<html lang=en>
-   <head>
-      <meta charset=utf-8>
-      <title>Tasks</title>
-   </head>
-   <body>
-      <p id=task class=dna-template>~~title~~</p>
-   </body>
-</html>
-`;
+import { JSDOM } from 'jsdom';
+import jQuery from 'jquery';
+import { dna } from 'dna.js';
 
-const { JSDOM } = require('jsdom');
-const window =    new JSDOM(html).window;
-const $ =         require('jquery')(window);
-const { dna } =   require('dna.js');
-dna.initGlobal(window, $);
+const html = `
+   <!doctype html>
+   <html lang=en>
+      <head>
+         <meta charset=utf-8>
+         <title>Tasks</title>
+      </head>
+      <body>
+         <p id=task class=dna-template>~~title~~</p>
+      </body>
+   </html>
+   `;
+const dom = new JSDOM(html);
+const $ = jQuery(dom.window);
+dna.initGlobal(dom.window, $);
 
 // To Do Application
 const app = () => {
@@ -37,5 +38,5 @@ app();
 console.log('Data model:');
 console.log(dna.getModel('task'));
 console.log('Task elements:');
-const printNode = (i, elem) => console.log(elem.outerHTML);
-$('.task').each(printNode);
+const printNode = (node) => console.log(node.outerHTML);
+$('.task').toArray().forEach(printNode);

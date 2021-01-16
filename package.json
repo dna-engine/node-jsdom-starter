@@ -3,6 +3,7 @@
    "description": "Sample dna.js application running on Node.js with jsdom",
    "version": "1.0.0",
    "license": "MIT",
+   "type": "module",
    "main": "app.js",
    "repository": "github:dnajs/dnajs-node-jsdom-starter",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
