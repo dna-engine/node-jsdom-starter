@@ -18,8 +18,8 @@ $ npm install
 $ node app.js
 ```
 
-### require()
-![require dna.js](screenshots/require-dnajs.png)
+### Import
+![import dna.js](screenshots/import-dnajs.png)
 
 ### Output
 ![require dna.js](screenshots/terminal.png)

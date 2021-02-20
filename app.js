@@ -7,10 +7,12 @@
 //    $ npm install
 //    $ node app.js
 
+// Imports
 import { JSDOM } from 'jsdom';
 import jQuery from 'jquery';
 import { dna } from 'dna.js';
 
+// Setup
 const html = `
    <!doctype html>
    <html lang=en>
