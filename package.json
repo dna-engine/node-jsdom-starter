@@ -4,7 +4,7 @@
    "version": "1.0.0",
    "license": "MIT",
    "type": "module",
-   "main": "app.js",
+   "module": "app.js",
    "repository": "github:dnajs/dnajs-node-jsdom-starter",
    "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
    "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
@@ -25,7 +25,8 @@
       "node": true
    },
    "scripts": {
-      "test": "jshint *.js"
+      "test": "jshint *.js",
+      "start": "npm test && node app.js"
    },
    "dependencies": {
       "canvas": "~2.6",
