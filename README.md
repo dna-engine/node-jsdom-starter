@@ -5,7 +5,7 @@ _Sample dna.js application running on node with jsdom_
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dnajs.org/license)
 [![Vulnerabilities](https://snyk.io/test/github/dnajs/dnajs-node-jsdom-starter/badge.svg)](https://snyk.io/test/github/dnajs/dnajs-node-jsdom-starter)
-[![Build](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter.svg)](https://travis-ci.org/dnajs/dnajs-node-jsdom-starter)
+[![Build](https://github.com/dnajs/dnajs-node-jsdom-starter/workflows/build/badge.svg)](https://github.com/dnajs/dnajs-node-jsdom-starter/actions?query=workflow%3Abuild)
 
 [dnajs.org](https://dnajs.org), a UI library for jQuery, can be run headless (no browser) on
 Node.js with the DOM provided by jsdom.
