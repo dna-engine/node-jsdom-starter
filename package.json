@@ -25,12 +25,12 @@
       "node": true
    },
    "scripts": {
-      "test": "jshint *.js",
+      "test": "jshint . --exclude node_modules",
       "start": "npm test && node app.js"
    },
    "dependencies": {
       "canvas": "~2.8",
-      "dna.js": "~1.7",
+      "dna.js": "~1.8",
       "jquery": "~3.6",
       "jsdom": "~16.6",
       "jshint": "~2.13"
