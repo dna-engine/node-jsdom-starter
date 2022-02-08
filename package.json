@@ -29,7 +29,7 @@
       "start": "npm test && node app.js"
    },
    "dependencies": {
-      "canvas": "~2.8",
+      "canvas": "~2.9",
       "dna.js": "~1.9",
       "jquery": "~3.6",
       "jsdom": "~19.0",
