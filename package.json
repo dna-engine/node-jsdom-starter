@@ -25,11 +25,11 @@
       "node": true
    },
    "scripts": {
-      "test": "jshint . --exclude node_modules",
+      "test": "jshint . --exclude-path .gitignore",
       "start": "npm test && node app.js"
    },
    "dependencies": {
-      "canvas": "~2.9",
+      "canvas": "~2.10",
       "dna.js": "~2.0",
       "jquery": "~3.6",
       "jsdom": "~20.0",
