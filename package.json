@@ -1,18 +1,18 @@
 {
-   "name": "dnajs-node-jsdom-starter",
-   "description": "Sample dna.js application running on Node.js with jsdom",
+   "name": "node-jsdom-starter",
+   "description": "Sample dna-engine application running on Node.js with jsdom",
    "version": "1.0.0",
    "license": "MIT",
    "type": "module",
    "module": "app.js",
-   "repository": "github:dnajs/dnajs-node-jsdom-starter",
-   "homepage": "https://github.com/dnajs/dnajs-node-jsdom-starter",
-   "bugs": "https://github.com/dnajs/dnajs-node-jsdom-starter/issues",
-   "docs": "https://dnajs.org/docs",
+   "repository": "github:dna-engine/node-jsdom-starter",
+   "homepage": "https://github.com/dna-engine/node-jsdom-starter",
+   "bugs": "https://github.com/dna-engine/node-jsdom-starter/issues",
+   "docs": "https://dna-engine.org/docs",
    "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "node",
-      "dna.js",
+      "dna-engine",
       "jsdom",
       "javascript"
    ],
@@ -30,7 +30,7 @@
    },
    "dependencies": {
       "canvas": "~2.10",
-      "dna.js": "~2.0",
+      "dna-engine": "~2.2",
       "jquery": "~3.6",
       "jsdom": "~20.0",
       "jshint": "~2.13"

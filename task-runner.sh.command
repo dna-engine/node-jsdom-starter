@@ -1,12 +1,12 @@
 #!/bin/bash
-############################
-# dnajs-node-jsdom-starter #
-############################
+######################
+# node-jsdom-starter #
+######################
 
 # To make this file runnable:
 #     $ chmod +x *.sh.command
 
-banner="dnajs-node-jsdom-starter"
+banner="node-jsdom-starter"
 projectHome=$(cd $(dirname $0); pwd)
 
 setupTools() {

@@ -1,16 +1,16 @@
 //////////////////////////////
-// dnajs-node-jsdom-starter //
+// node-jsdom-starter //
 //////////////////////////////
 
 // Run:
-//    $ cd dnajs-node-jsdom-starter
+//    $ cd node-jsdom-starter
 //    $ npm install
 //    $ node app.js
 
 // Imports
 import { JSDOM } from 'jsdom';
+import { dna } from 'dna-engine';
 import jQuery from 'jquery';
-import { dna } from 'dna.js';
 
 // Setup
 const html = `
