@@ -29,10 +29,8 @@
       "start": "npm test && node app.js"
    },
    "dependencies": {
-      "canvas": "~2.10",
-      "dna-engine": "~2.2",
-      "jquery": "~3.6",
-      "jsdom": "~20.0",
+      "dna-engine": "~3.2",
+      "jsdom": "~24.1",
       "jshint": "~2.13"
    }
 }

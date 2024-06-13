@@ -10,7 +10,6 @@
 // Imports
 import { JSDOM } from 'jsdom';
 import { dna } from 'dna-engine';
-import jQuery from 'jquery';
 
 // Setup
 const html = `
@@ -26,8 +25,7 @@ const html = `
    </html>
    `;
 const dom = new JSDOM(html);
-const $ = jQuery(dom.window);
-dna.initGlobal(dom.window, $);
+dna.initGlobal(dom.window);
 
 // To Do Application
 const app = () => {
@@ -37,8 +35,10 @@ const app = () => {
 app();
 
 // Output
+console.log();
 console.log('Data model:');
-console.log(dna.getModel('task'));
+console.log(dna.getModels('task'));
+console.log();
 console.log('Task elements:');
-const printNode = (node) => console.log(node.outerHTML);
-$('.task').toArray().forEach(printNode);
+const elems = [...dom.window.document.getElementsByClassName('task')];
+elems.forEach(elem => console.log(elem.outerHTML));

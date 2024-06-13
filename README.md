@@ -5,9 +5,9 @@ _Sample dna-engine application running on node with jsdom_
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dna-engine.org/license)
 [![Vulnerabilities](https://snyk.io/test/github/dna-engine/node-jsdom-starter/badge.svg)](https://snyk.io/test/github/dna-engine/node-jsdom-starter)
-[![Build](https://github.com/dna-engine/node-jsdom-starter/workflows/build/badge.svg)](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml)
+[![Build](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml)
 
-[dna-engine.org](https://dna-engine.org), a UI library for jQuery, can be run headless (no browser) on
+[dna-engine.org](https://dna-engine.org), a UI templating library, can be run headless (no browser) on
 Node.js with the DOM provided by jsdom.
 
 ### Setup
