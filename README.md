@@ -4,7 +4,6 @@
 _Sample dna-engine application running on node with jsdom_
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dna-engine.org/license)
-[![Vulnerabilities](https://snyk.io/test/github/dna-engine/node-jsdom-starter/badge.svg)](https://snyk.io/test/github/dna-engine/node-jsdom-starter)
 [![Build](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml)
 
 [dna-engine.org](https://dna-engine.org), a UI templating library, can be run headless (no browser) on
@@ -12,14 +11,34 @@ Node.js with the DOM provided by jsdom.
 
 ### Setup
 Execute `run-app.sh.command` or enter the terminal commands:
-```
+```shell
 $ cd node-jsdom-starter
 $ npm install
-$ node app.js
+$ node app
 ```
 
-### Import
-![import dna-engine](screenshots/import-dna.png)
+### Imports and Setup
+```javascript
+// Imports
+import { JSDOM } from 'jsdom';
+import { dna } from 'dna-engine';
+
+// Setup
+const html = `
+   <!doctype html>
+   <html lang=en>
+      <head>
+         <meta charset=utf-8>
+         <title>Tasks</title>
+      </head>
+      <body>
+         <p id=task class=dna-template>~~title~~</p>
+      </body>
+   </html>
+   `;
+const dom = new JSDOM(html);
+dna.initGlobal(dom.window);
+```
 
 ### Output
 ![require dna-engine](screenshots/terminal.png)

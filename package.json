@@ -26,7 +26,7 @@
    },
    "scripts": {
       "test": "jshint . --exclude-path .gitignore",
-      "start": "npm test && node app.js"
+      "start": "npm test && node app"
    },
    "dependencies": {
       "dna-engine": "~3.2",
