@@ -17,7 +17,7 @@ $ npm install
 $ node app
 ```
 
-### Imports and Setup
+### Import and Initialize
 ```javascript
 // Imports
 import { JSDOM } from 'jsdom';
