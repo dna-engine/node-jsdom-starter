@@ -10,7 +10,7 @@ _Sample dna-engine application running on node with jsdom_
 Node.js with the DOM provided by jsdom.
 
 ### Setup
-Execute `run-app.sh.command` or enter the terminal commands:
+Enter the terminal commands:
 ```shell
 $ cd node-jsdom-starter
 $ npm install

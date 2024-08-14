@@ -5,7 +5,7 @@
 // Run:
 //    $ cd node-jsdom-starter
 //    $ npm install
-//    $ node app.js
+//    $ node app
 
 // Imports
 import { JSDOM } from 'jsdom';
