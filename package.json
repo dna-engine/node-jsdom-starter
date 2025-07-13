@@ -30,7 +30,7 @@
    },
    "dependencies": {
       "dna-engine": "~3.2",
-      "jsdom": "~26.0",
+      "jsdom": "~26.1",
       "jshint": "~2.13"
    }
 }

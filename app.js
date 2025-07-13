@@ -35,10 +35,10 @@ const app = () => {
 app();
 
 // Output
-console.log();
-console.log('Data model:');
-console.log(dna.getModels('task'));
-console.log();
-console.log('Task elements:');
+console.info();
+console.info('Data model:');
+console.info(dna.getModels('task'));
+console.info();
+console.info('Task elements:');
 const elems = [...dom.window.document.getElementsByClassName('task')];
-elems.forEach(elem => console.log(elem.outerHTML));
+elems.forEach(elem => console.info(elem.outerHTML));
