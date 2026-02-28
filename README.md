@@ -1,12 +1,12 @@
 # node-jsdom-starter
-<img src=https://dna-engine.org/graphics/dna-logo.png align=right width=160 alt=logo>
+<img src=https://dna-dom.org/graphics/dna-logo.png align=right width=160 alt=logo>
 
-_Sample dna-engine application running on node with jsdom_
+_Sample dna-dom application running on node with jsdom_
 
-[![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dna-engine.org/license)
-[![Build](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-engine/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml)
+[![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://dna-dom.org/license)
+[![Build](https://github.com/dna-dom/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-dom/node-jsdom-starter/actions/workflows/run-spec-on-push.yaml)
 
-[dna-engine.org](https://dna-engine.org), a UI templating library, can be run headless (no browser) on
+[dna-dom.org](https://dna-dom.org), a UI templating library, can be run headless (no browser) on
 Node.js with the DOM provided by jsdom.
 
 ### Setup
@@ -21,7 +21,7 @@ $ node app
 ```javascript
 // Imports
 import { JSDOM } from 'jsdom';
-import { dna } from 'dna-engine';
+import { dna } from 'dna-dom';
 
 // Setup
 const html = `
@@ -41,7 +41,7 @@ dna.initGlobal(dom.window);
 ```
 
 ### Output
-![require dna-engine](screenshots/terminal.png)
+![require dna-dom](screenshots/terminal.png)
 
 ---
 [MIT License](LICENSE.txt)

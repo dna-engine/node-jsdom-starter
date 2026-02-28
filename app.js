@@ -9,7 +9,7 @@
 
 // Imports
 import { JSDOM } from 'jsdom';
-import { dna } from 'dna-engine';
+import { dna } from 'dna-dom';
 
 // Setup
 const html = `
